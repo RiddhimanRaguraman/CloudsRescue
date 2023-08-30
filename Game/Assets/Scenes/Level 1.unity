@@ -969,7 +969,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.32698286, y: 0, z: -14.9}
+  m_LocalPosition: {x: 4.771429, y: -0.00002, z: -14.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8332,6 +8332,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "Solve the inequality \u221A(x + 34/6) > 5. answer for x is greater
         than?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -35
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
