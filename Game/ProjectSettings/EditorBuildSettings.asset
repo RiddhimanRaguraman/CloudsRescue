@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/openingAnimation.unity
+    guid: 6cbd0b4a57c9c344b81e55a93bc378a8
+  - enabled: 1
     path: Assets/Scenes/StartPage.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -16,31 +19,31 @@ EditorBuildSettings:
     guid: c36d718de513a2e42aa4e1ba85acba5d
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
-    guid: 0b706c497f58d554e8318f17b3406808
+    guid: 4ad8fe61f470c56489b91a5acd57bc45
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
-    guid: b1697532dde44f344ab2a5a34b868735
+    guid: f1e7df078f10dde489952fb8c59fb174
   - enabled: 1
     path: Assets/Scenes/Level 3.unity
-    guid: e5fa79d23bdd0bc4998e904579d8b7b8
+    guid: ec72257780ddebf4e8e334704e67f727
   - enabled: 1
     path: Assets/Scenes/Level 4.unity
-    guid: 26d1a4dd35eb3cb42b37caa4d85311ff
+    guid: 71355d98e1b5e9e4b8d6ada6dc5fe32b
   - enabled: 1
     path: Assets/Scenes/Level 5.unity
-    guid: 36999e2d4c5f10543bdc41b8645e4061
+    guid: 20b055086f99c3c408c76aad5da0b507
   - enabled: 1
     path: Assets/Scenes/Level 6.unity
-    guid: 26125ede5e379034f9b12375fd04beb9
+    guid: e525e65ac1d57a443b784d17541d2f50
   - enabled: 1
     path: Assets/Scenes/Level 7.unity
-    guid: 0ca1859ec37324649ad8c5b002289da8
+    guid: b00b682a470cb614ca9d0ced167e1d87
   - enabled: 1
     path: Assets/Scenes/Level 8.unity
-    guid: 14299e4bf55e9484983d33dd07f0d21c
+    guid: 4859c4c1fed31bf47b3f7c607454dbaf
   - enabled: 1
     path: Assets/Scenes/Level 9.unity
-    guid: a7f7785e3b4a6db438f80ef38d387b87
+    guid: 21b71a16dfa3ba34e83ebe82af31b981
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 8abc2273d6d09534aaead41cd2fb8336, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 2d38c7fa683670b4788d347bef445837, type: 2}
