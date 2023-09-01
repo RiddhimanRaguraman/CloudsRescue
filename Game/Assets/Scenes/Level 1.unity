@@ -707,7 +707,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 964655976}
   returnButton: {fileID: 2080304508}
-  correctAnswer: 5
+  correctAnswer: 41454
   button: {fileID: 4509450935973995930}
   joyStick: {fileID: 5762072244836549238}
   EndCanvas: {fileID: 1289332781}
@@ -3213,7 +3213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_text
-      value: Enter 5
+      value: Find the LCM of 294 and 846.
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Name
@@ -6807,6 +6807,33 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
+      propertyPath: m_text
+      value: "Prepare yourself, for the challenges ahead are not for the faint of
+        heart. In this level, you will grapple with the mysterious world of Real
+        Numbers, a realm where rationality and irrationality collide. You see, I
+        delight in the twisted beauty of chaos, and these problems are my way of
+        testing your feeble intellect. \nFrom classifying numbers to diving into
+        the depths of prime factorization, you'll find yourself drowning in my mathematical
+        madness. Each problem is a testament to my genius, meticulously crafted to
+        bewilder and confuse."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
+      propertyPath: m_fontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 9ad269c99dcf42b7aedefd83dd5a7b9d, type: 2}
     - target: {fileID: 4752284887922550312, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
