@@ -98,7 +98,7 @@ public class CharacterInteraction : MonoBehaviour
     public SpriteRenderer grandpaSpriteRenderer;
     public TMP_Text textField;
     public Button nextButton;
-
+    public Animator transition;
     private CharacterData[] characters; // An array of characters for the interaction
     private int currentCharacterIndex = 0; // Index of the current character
     private int currentDialogueIndex = 0; // Index of the current dialogue
@@ -202,13 +202,21 @@ public class CharacterInteraction : MonoBehaviour
             if (currentCharacterIndex == 0)
             {
                 // All dialogues are done, go to the "StartPage" scene
-                SceneManager.LoadScene("StartPage");
+                StartCoroutine(LoadLevelStartPage());
             }
             else
             {
                 StartDialogue();
             }
         }
+    }
+    IEnumerator LoadLevelStartPage()
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(1f);
+
+        SceneManager.LoadSceneAsync("StartPage");
     }
 }
 

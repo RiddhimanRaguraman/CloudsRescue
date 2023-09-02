@@ -385,6 +385,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337310139}
   m_CullTransparentMesh: 1
+--- !u!95 &439484716 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2051217483862894864, guid: 1a71d3b79aadf724ab752790c5f542e1, type: 3}
+  m_PrefabInstance: {fileID: 513879904}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &513879904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -398,7 +403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2051217483862894876, guid: 1a71d3b79aadf724ab752790c5f542e1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2051217483862894877, guid: 1a71d3b79aadf724ab752790c5f542e1, type: 3}
       propertyPath: m_Pivot.x
@@ -1039,6 +1044,7 @@ MonoBehaviour:
   grandpaSpriteRenderer: {fileID: 173638080}
   textField: {fileID: 1069362368}
   nextButton: {fileID: 1990202644}
+  transition: {fileID: 439484716}
 --- !u!1 &1990202642
 GameObject:
   m_ObjectHideFlags: 0
