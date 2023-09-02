@@ -7043,7 +7043,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175731399}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.30383968, y: 0.000099778175, z: -10}
+  m_LocalPosition: {x: 2.6669436, y: 0.000099778175, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8735,7 +8735,7 @@ MonoBehaviour:
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1175731401}
 --- !u!50 &1478594494
 Rigidbody2D:
   serializedVersion: 4
@@ -9387,7 +9387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4264684563141029531, guid: e9d6e663472ac83429ab5a4ab7ae2389, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4264684563141029533, guid: e9d6e663472ac83429ab5a4ab7ae2389, type: 3}
       propertyPath: m_RootOrder
