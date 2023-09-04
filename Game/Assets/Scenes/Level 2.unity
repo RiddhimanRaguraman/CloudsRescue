@@ -1835,9 +1835,9 @@ GameObject:
   - component: {fileID: 1289332785}
   - component: {fileID: 1289332784}
   - component: {fileID: 1289332783}
+  - component: {fileID: 1289332786}
   - component: {fileID: 1289332782}
   - component: {fileID: 1289332787}
-  - component: {fileID: 1289332786}
   m_Layer: 5
   m_Name: GameOver
   m_TagString: Untagged
@@ -1945,6 +1945,7 @@ MonoBehaviour:
   transition2: {fileID: 6263178110815742579}
   transitionTime: 1
   Panel: {fileID: 1289332781}
+  nextSceneLoad: 5
 --- !u!114 &1289332787
 MonoBehaviour:
   m_ObjectHideFlags: 0
