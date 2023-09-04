@@ -11,11 +11,16 @@ public class LevelManager : MonoBehaviour
     public Animator transition2;
     public float transitionTime = 1f;
     public GameObject Panel;
+    public int nextSceneLoad;
 
-    public void OpenLevel(int levelId)
+    public void OpenLevel()
     {
-        string levelName = "Level " + levelId;
+        string levelName = "Level " + (SceneManager.GetActiveScene().buildIndex + 1);
         // SceneManager.LoadScene(levelName);
+        if(nextSceneLoad > PlayerPrefs.GetInt("levelit"))
+        {
+            PlayerPrefs.SetInt("levelit", nextSceneLoad);
+        }
         StartCoroutine(LoadLevel(levelName));
         // UnityEngine.Debug.Log(levelName);
     }

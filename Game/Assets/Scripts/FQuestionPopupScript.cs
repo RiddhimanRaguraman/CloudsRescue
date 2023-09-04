@@ -18,7 +18,6 @@ public class FQuestionPopupScript : MonoBehaviour
     public GameObject button;
     public GameObject joyStick;
     public GameObject EndCanvas;
-    public static int LevelUnlocked;
     // public GameObject StartCanvas;
    
     
@@ -50,7 +49,7 @@ public class FQuestionPopupScript : MonoBehaviour
                 GetComponent<FSelectorScript>().HideSelectButton();
                 questionPopup.SetActive(false);
                 // StartCanvas.SetActive(false);
-                LevelUnlocked = SceneManager.GetActiveScene().buildIndex - 3;
+
                 EndCanvas.SetActive(true);
             }
             else
