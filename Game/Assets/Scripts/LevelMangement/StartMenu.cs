@@ -25,6 +25,10 @@ public class StartMenu : MonoBehaviour
     {
         StartCoroutine(LoadLevelHome());
     }
+    public void GoToLevelSelector()
+    {
+        StartCoroutine(LoadLevelSelector());
+    }
     /*pulbic void ButtonClick()
     {
         audio2.Play();
@@ -50,7 +54,16 @@ public class StartMenu : MonoBehaviour
 
         yield return new WaitForSeconds(transitionTime);
 
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync("StartPage");
+    }
+    IEnumerator LoadLevelSelector()
+    {
+        dc1.SetTrigger("Close");
+        dc2.SetTrigger("Close");
+
+        yield return new WaitForSeconds(transitionTime);
+
+        SceneManager.LoadSceneAsync("Level Selector 1");
     }
     IEnumerator LoadLevelLift(string levelName)
     {
