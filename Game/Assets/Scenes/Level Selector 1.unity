@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4264684562579104981, guid: e9d6e663472ac83429ab5a4ab7ae2389, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4264684562579105000, guid: e9d6e663472ac83429ab5a4ab7ae2389, type: 3}
       propertyPath: m_SortingOrder
@@ -2651,7 +2651,6 @@ MonoBehaviour:
   - {fileID: 139921690}
   - {fileID: 219970326}
   - {fileID: 1396881691}
-  levelit: 0
 --- !u!4 &1271966725
 Transform:
   m_ObjectHideFlags: 0
