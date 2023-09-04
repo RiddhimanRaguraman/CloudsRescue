@@ -14,7 +14,7 @@ public class Menu : MonoBehaviour
 
     public void OpenLevel(int levelId)
     {
-        string levelName = "Level Selector " + levelId;
+        string levelName = "Level Selector " + levelId ;
         StartCoroutine(LoadLevel(levelName));
     }
 
