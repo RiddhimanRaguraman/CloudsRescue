@@ -1,90 +1,3 @@
-// using System.Collections;
-// using UnityEngine;
-// using UnityEngine.UI;
-// using TMPro;
-// using DG.Tweening;
-
-// public class CharacterInteraction : MonoBehaviour
-// {
-//     public TMP_Text textField;
-//     public Button nextButton;
-
-//     private string[] dialogues; // An array of dialogues for the interaction
-//     private int currentDialogueIndex = 0; // Index of the current dialogue
-
-//     private bool textAnimationCompleted = false;
-
-//     private void Start()
-//     {
-//         dialogues = new string[]
-//         {
-//             "Hello, adventurer!",
-//             "Welcome to the mystical world.",
-//             "Are you ready for an epic journey?"
-//             // Add more dialogues as needed
-//         };
-
-//         // Start the first dialogue
-//         StartDialogue();
-//     }
-
-//     private void Update()
-//     {
-//         // Check for touch input to skip text animation
-//         if (Input.touchCount > 0 && textAnimationCompleted)
-//         {
-//             Touch touch = Input.GetTouch(0);
-//             if (touch.phase == TouchPhase.Began)
-//             {
-//                 ContinueToNextDialogue();
-//             }
-//         }
-//     }
-
-//     public void StartDialogue()
-//     {
-//         // Show the text panel and start animating the text
-//         textField.gameObject.SetActive(true);
-//         textField.text = ""; // Clear the text initially
-//         textField.DOText(dialogues[currentDialogueIndex], dialogues[currentDialogueIndex].Length * 0.05f)
-//             .SetEase(Ease.Linear)
-//             .SetUpdate(true)
-//             .OnComplete(() =>
-//             {
-//                 // Text animation complete, set the flag
-//                 textAnimationCompleted = true;
-
-//                 // Show the "Next" button
-//                 nextButton.gameObject.SetActive(true);
-//             });
-//     }
-
-//     public void ContinueToNextDialogue()
-//     {
-//         // Hide the text panel and move to the next dialogue
-//         textField.gameObject.SetActive(false);
-//         nextButton.gameObject.SetActive(false);
-
-//         // Move to the next dialogue
-//         currentDialogueIndex++;
-
-//         // Reset the text animation flag
-//         textAnimationCompleted = false;
-
-//         // Check if there are more dialogues
-//         if (currentDialogueIndex < dialogues.Length)
-//         {
-//             StartDialogue();
-//         }
-//         else
-//         {
-//             // All dialogues are done, end the interaction or proceed to the next game phase
-//             // For example, you can load the next scene or start the gameplay.
-//         }
-//     }
-// }
-
-
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -179,8 +92,8 @@ public class CharacterInteraction : MonoBehaviour
     public void ContinueToNextDialogue()
     {
         // Hide the text panel and move to the next dialogue
-        grandsonSpriteRenderer.gameObject.SetActive(false);
-        grandpaSpriteRenderer.gameObject.SetActive(false);
+        // grandsonSpriteRenderer.gameObject.SetActive(false);
+        // grandpaSpriteRenderer.gameObject.SetActive(false);
         textField.gameObject.SetActive(false);
         nextButton.gameObject.SetActive(false);
 

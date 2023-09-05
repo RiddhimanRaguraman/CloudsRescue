@@ -298,7 +298,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1059323286, guid: e76a8d8f46001204b981dd938adbd846, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 63e0b89eee04c0443a136a807a785459, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -403,7 +403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2051217483862894876, guid: 1a71d3b79aadf724ab752790c5f542e1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2051217483862894877, guid: 1a71d3b79aadf724ab752790c5f542e1, type: 3}
       propertyPath: m_Pivot.x
