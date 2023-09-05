@@ -82,7 +82,7 @@ public class CharacterInteraction : MonoBehaviour
         foreach (char letter in dialogue)
         {
             textField.text += letter;
-            yield return new WaitForSeconds(0.05f); // Delay between each letter
+            yield return new WaitForSeconds(0.5f); // Delay between each letter
         }
 
         // Text animation complete, show the "Next" button
@@ -123,6 +123,7 @@ public class CharacterInteraction : MonoBehaviour
             }
         }
     }
+    
     IEnumerator LoadLevelStartPage()
     {
         transition.SetTrigger("Start");
