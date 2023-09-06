@@ -858,7 +858,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 873436924}
   returnButton: {fileID: 8750742910751289546}
-  correctAnswer: 19.3
+  correctAnswer: 1
   button: {fileID: 4509450935774574961}
   joyStick: {fileID: 5762072244836549238}
 --- !u!60 &498373350
@@ -2943,6 +2943,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -76
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864725, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2991,6 +2999,14 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4280953386
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -41
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
@@ -3196,6 +3212,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: FQuestionPopupScript, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.3397
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -180
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864726, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3214,12 +3238,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_text
-      value: "\nIn DEF, DE=DF and angle of \nF = 40. Find the measures of angle E
-        and angle F."
+      value: In DEF, DE=DF and angle of F = 40. Find the measures of angle E and
+        angle F.
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_fontStyle
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 5.6423
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -47.178894
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Name
@@ -3672,6 +3708,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -129
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864724, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -250
@@ -3702,8 +3746,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
-      value: 'In triangle ABC, if angle of A = 45 and angle of B = 60, find the measure
-        of angle of C. '
+      value: "In triangle ABC, if angle of A = 45 and angle of \nB = 60, find the
+        measure of angle of C. "
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontSize
@@ -3712,6 +3756,14 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontSizeBase
       value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
@@ -6816,8 +6868,8 @@ PrefabInstance:
     - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
       propertyPath: m_text
       value: Now, prepare to explore the world of Triangles, where angles and sides
-        entwine to create geometric puzzles. Triangles, Cloud, are the building blocks
-        of geometry. They possess an elegance born from simplicity, yet their properties
+        entwine to create geometric puzzles. Triangles are the building blocks of
+        geometry. They possess an elegance born from simplicity, yet their properties
         and relationships can lead to a tapestry of complexity. In this level, you'll
         navigate through the intricacies of angles, sides, and classifications.
       objectReference: {fileID: 0}
@@ -8334,6 +8386,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.3397
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -196
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864726, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8352,7 +8412,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
-      value: In PQR, if PQ=QR=PR, what type of triangle is it.
+      value: 'In PQR, if PQ=QR=PR, what type of triangle is it. Choose the correct
+        option.
+
+        1. Equilateral
+
+        2. Isosceles
+
+        3. Scalene'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_margin.y
+      value: -294.7406
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name

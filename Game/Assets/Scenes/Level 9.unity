@@ -2943,6 +2943,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -184
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864725, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2973,14 +2981,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
-      value: 'A bridge across a river is 100 meters long. The height of one of the
-        bridge''s towers is 30 meters. If the angle of elevation from one end of
-        the bridge to the top of the tower is 45 degrees, find the width of the river
-        (in m) rounded to the nearest integer. '
+      value: "A bridge across a river is 100 meters long. The height of one of the
+        bridge's towers is 30 meters. If the angle of elevation from one end of the
+        bridge to the top of the tower is 45 degrees, find the width of the \nriver
+        (in m) rounded to the nearest integer. "
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontSize
-      value: 70
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontColor.b
@@ -2996,11 +3004,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontSizeBase
-      value: 70
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4280953386
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
@@ -3206,6 +3222,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: FQuestionPopupScript, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -234
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864726, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3231,7 +3255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_fontSize
-      value: 70
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_fontStyle
@@ -3239,7 +3263,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_fontSizeBase
-      value: 70
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -103
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Name
@@ -3692,6 +3724,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.3397
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -175
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864724, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -250
@@ -3734,6 +3774,14 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontSizeBase
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -37
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
@@ -6841,9 +6889,9 @@ PrefabInstance:
         you enter the world of Applications of Trigonometry. Here, mathematics meets
         reality in a tapestry of angles and practicality. Welcome to a level where
         the tools of trigonometry come to life. Your worst nightmares brought alive!
-        Applications of trigonometry, Cloud, bridge the gap between theory and the
-        tangible world. They transform abstract angles and ratios into tools that
-        engineers, architects, and scientists wield to conquer real-world problems. '
+        Applications of trigonometry bridge the gap between theory and the tangible
+        world. They transform abstract angles and ratios into tools that engineers,
+        architects, and scientists wield to conquer real-world problems. '
       objectReference: {fileID: 0}
     - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
       propertyPath: m_fontSize
@@ -8358,6 +8406,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -233
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864726, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8387,6 +8443,14 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontSizeBase
       value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -37
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name

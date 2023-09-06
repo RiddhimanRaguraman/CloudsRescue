@@ -707,7 +707,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 964655976}
   returnButton: {fileID: 2080304508}
-  correctAnswer: 5
+  correctAnswer: 1
   button: {fileID: 4509450935973995930}
   joyStick: {fileID: 5762072244836549238}
   EndCanvas: {fileID: 1289332781}
@@ -1585,7 +1585,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 1497728784}
   returnButton: {fileID: 687472415}
-  correctAnswer: 0.00049
+  correctAnswer: 3
   button: {fileID: 4509450934473685027}
   joyStick: {fileID: 5762072244836549238}
 --- !u!114 &1212619480
@@ -2943,6 +2943,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -140
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864725, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2973,8 +2981,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
-      value: Discuss whether the roots of the equation x^2+2x+5=0 are real, equal,
-        or complex.
+      value: "Discuss whether the roots of the equation \nx^2 + 2x + 5 = 0 are real,
+        equal, or complex.\n1. Real\n2. Equal\n3. Complex"
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontColor.b
@@ -2991,6 +2999,14 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4280953386
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
@@ -3196,6 +3212,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: FQuestionPopupScript, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000021696
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -248
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864726, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3214,14 +3238,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_text
-      value: '
+      value: 'Check whether the given equation is quadratic:  x + (1/x) = 4.
 
-        Check whether the given equation is quadratic:  x+(1/x)=4.
-        (Yes / No)'
+        1.
+        Yes
+
+        2. No'
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_fontStyle
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -46
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Name
@@ -3674,6 +3708,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -186
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864724, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -250
@@ -3713,6 +3755,14 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontSizeBase
       value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -43
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
@@ -6817,7 +6867,7 @@ PrefabInstance:
     - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
       propertyPath: m_text
       value: Now, you step into the world of Quadratic Equations, where the dance
-        of variables reaches its highest. Quadratic equations, Cloud, are the embodiment
+        of variables reaches its highest. Quadratic equations are the embodiment
         of elegance and complexity. They curve and bend, revealing their solutions
         with a touch of mystery. In this level, you'll explore the nuances of these
         equations, from factoring to the quadratic formula. Can you unlock the secrets
@@ -8336,6 +8386,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -176
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864726, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8364,6 +8422,14 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontSizeBase
       value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name

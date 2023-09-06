@@ -707,7 +707,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 964655976}
   returnButton: {fileID: 2080304508}
-  correctAnswer: 7
+  correctAnswer: 2
   button: {fileID: 4509450935973995930}
   joyStick: {fileID: 5762072244836549238}
   EndCanvas: {fileID: 1289332781}
@@ -2943,6 +2943,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -104
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864725, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2990,6 +2998,14 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4280953386
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
@@ -3195,6 +3211,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: FQuestionPopupScript, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.3397
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -212
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864726, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3213,13 +3237,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_text
-      value: '
-
-        sin (A + B) = sin A + sin B. True or false?'
+      value: "sin (A + B) = sin A + sin B. \nChoose the correct option.\n1. True
+        \n2. False"
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_fontStyle
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -73
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Name
@@ -3672,6 +3703,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -186
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864724, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -250
@@ -3711,6 +3750,14 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontSizeBase
       value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
@@ -6812,14 +6859,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4752284887476146024, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
       propertyPath: m_text
-      value: Now, you face the intricate world of trigonometry. Brace yourself for
+      value: Now, you face the intricate world of Trigonometry. Brace yourself for
         a voyage into the realm of angles, ratios, and the harmonious dance of triangles.
-        Trigonometry, Cloud, is the art of understanding triangles through the lens
-        of angles and ratios. It unravels the mysteries of the interconnectedness
-        between sides and angles, opening a gateway to profound mathematical truths.
-        In this level, you'll explore the beauty of these relationships.
+        Trigonometry is the art of understanding triangles through the lens of angles
+        and ratios. It unravels the mysteries of the interconnectedness between sides
+        and angles, opening a gateway to profound mathematical truths. In this level,
+        you'll explore the beauty of these relationships.
       objectReference: {fileID: 0}
     - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
       propertyPath: m_fontSize
@@ -8334,6 +8385,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.3397
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -186
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864726, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8354,6 +8413,14 @@ PrefabInstance:
       propertyPath: m_text
       value: "Given sin\u03B8 = (3/5) and \u03B8 is in the second quadrant, find
         cos\u03B8."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name

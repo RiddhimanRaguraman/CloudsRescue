@@ -858,7 +858,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 873436924}
   returnButton: {fileID: 8750742910751289546}
-  correctAnswer: 19.3
+  correctAnswer: 2
   button: {fileID: 4509450935774574961}
   joyStick: {fileID: 5762072244836549238}
 --- !u!60 &498373350
@@ -1585,7 +1585,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 1497728784}
   returnButton: {fileID: 687472415}
-  correctAnswer: 0.00049
+  correctAnswer: 2
   button: {fileID: 4509450934473685027}
   joyStick: {fileID: 5762072244836549238}
 --- !u!114 &1212619480
@@ -2943,6 +2943,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -123
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864725, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2974,7 +2982,7 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
       value: "Graph the equations 3x \u2212 2y = 9 and \n6x \u2212 4y = 12. Determine
-        if the lines are parallel, intersecting, or coincident."
+        if the lines are: \n1. Intersecting\n2. Parallel\n3. Coincident"
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontColor.b
@@ -2991,6 +2999,26 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4280953386
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.97348
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.97348
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.97348
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
@@ -3196,6 +3224,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: FQuestionPopupScript, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.3397
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -202
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864726, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3221,7 +3257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_fontSize
-      value: 70
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_fontStyle
@@ -3229,7 +3265,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_fontSizeBase
-      value: 70
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -25
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Name
@@ -3682,6 +3726,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -153
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864724, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -250
@@ -3722,6 +3774,14 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontSizeBase
       value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
@@ -6827,9 +6887,9 @@ PrefabInstance:
       propertyPath: m_text
       value: Now, you stand at the threshold of the world of Linear Equations in
         Two Variables. Brace yourself for a journey into the realm of simultaneous
-        equations. In this level, Cloud, you will encounter equations that interweave,
-        each representing a different facet of a problem. These pairs of equations
-        hold the potential to unlock solutions that are hidden within their intersections.
+        equations. In this level you will encounter equations that interweave, each
+        representing a different facet of a problem. These pairs of equations hold
+        the potential to unlock solutions that are hidden within their intersections.
         Can you master the art of finding those elusive values?
       objectReference: {fileID: 0}
     - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
@@ -8345,6 +8405,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClosePopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742909377840396, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -223
+      objectReference: {fileID: 0}
     - target: {fileID: 8750742909930864726, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8364,7 +8432,24 @@ PrefabInstance:
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
       value: "Determine whether the point (2, \u22121) is a solution to the system
-        of equations  \n3x \u2212 2y = 5 and x + 3y = \u22121. (Yes/No)"
+        of equations  \n3x \u2212 2y = 5 and x + 3y = \u22121. \nChoose the correct
+        option.\n1. Yes\n2. No"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_fontSize
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877149, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
