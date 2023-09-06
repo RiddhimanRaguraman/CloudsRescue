@@ -7,14 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class CharacterInteraction : MonoBehaviour
 {
-    public SpriteRenderer grandsonSpriteRenderer;
-    public SpriteRenderer grandpaSpriteRenderer;
+    public GameObject grandsonGameObject; // GameObject for grandson
+    public GameObject grandpaGameObject; // GameObject for grandpa
     public TMP_Text textField;
     public Button nextButton;
     public Animator transition;
-    private CharacterData[] characters; // An array of characters for the interaction
-    private int currentCharacterIndex = 0; // Index of the current character
-    private int currentDialogueIndex = 0; // Index of the current dialogue
+    private CharacterData[] characters;
+    private int currentCharacterIndex = 0;
+    private int currentDialogueIndex = 0;
     private Coroutine typingCoroutine;
 
     private void Start()
@@ -42,79 +42,35 @@ public class CharacterInteraction : MonoBehaviour
 
     public void StartDialogue()
     {
-        // Show the text panel and start animating the text
-        grandsonSpriteRenderer.gameObject.SetActive(false);
-        grandpaSpriteRenderer.gameObject.SetActive(false);
+        grandsonGameObject.SetActive(false);
+        grandpaGameObject.SetActive(false);
         textField.gameObject.SetActive(true);
         nextButton.gameObject.SetActive(false);
 
-        // Get the current character
         CharacterData currentCharacter = characters[currentCharacterIndex];
 
-        // Set the character's sprite
         if (currentCharacter.characterName == "Ethan")
         {
-            grandsonSpriteRenderer.gameObject.SetActive(true);
-            grandpaSpriteRenderer.gameObject.SetActive(false);
-            grandsonSpriteRenderer.sprite = Resources.Load<Sprite>(currentCharacter.imagePath);
+            grandsonGameObject.SetActive(true);
+            grandpaGameObject.SetActive(false);
         }
         else if (currentCharacter.characterName == "Harrison")
         {
-            grandpaSpriteRenderer.gameObject.SetActive(true);
-            grandsonSpriteRenderer.gameObject.SetActive(false);
-            grandpaSpriteRenderer.sprite = Resources.Load<Sprite>(currentCharacter.imagePath);
+            grandpaGameObject.SetActive(true);
+            grandsonGameObject.SetActive(false);
         }
 
-        // Cancel any ongoing typing coroutine
-        if (typingCoroutine != null)
-        {
-            StopCoroutine(typingCoroutine);
-        }
-
-        // Start a new typing coroutine
-        typingCoroutine = StartCoroutine(TypeText(currentCharacter.dialogues[currentDialogueIndex]));
-    }
-
-    private IEnumerator TypeText(string dialogue)
-    {
-        textField.text = ""; // Clear the text
-
-        foreach (char letter in dialogue)
-        {
-            textField.text += letter;
-            yield return new WaitForSeconds(0.5f); // Delay between each letter
-        }
-
-        // Text animation complete, show the "Next" button
-        nextButton.gameObject.SetActive(true);
-    }
-
-    public void ContinueToNextDialogue()
-    {
-        // Hide the text panel and move to the next dialogue
-        // grandsonSpriteRenderer.gameObject.SetActive(false);
-        // grandpaSpriteRenderer.gameObject.SetActive(false);
-        textField.gameObject.SetActive(false);
-        nextButton.gameObject.SetActive(false);
-
-        // Move to the next dialogue
-        currentDialogueIndex++;
-
-        // Check if the current character's dialogues are done
-        CharacterData currentCharacter = characters[currentCharacterIndex];
         if (currentDialogueIndex < currentCharacter.dialogues.Length)
         {
-            StartDialogue();
+            typingCoroutine = StartCoroutine(TypeText(currentCharacter.dialogues[currentDialogueIndex]));
         }
         else
         {
-            // Move to the next character's dialogues
-            currentCharacterIndex = (currentCharacterIndex + 1) % characters.Length;
             currentDialogueIndex = 0;
+            currentCharacterIndex = (currentCharacterIndex + 1) % characters.Length;
 
             if (currentCharacterIndex == 0)
             {
-                // All dialogues are done, go to the "StartPage" scene
                 StartCoroutine(LoadLevelStartPage());
             }
             else
@@ -123,7 +79,37 @@ public class CharacterInteraction : MonoBehaviour
             }
         }
     }
-    
+
+    private IEnumerator TypeText(string dialogue)
+    {
+        textField.text = "";
+
+        foreach (char letter in dialogue)
+        {
+            textField.text += letter;
+            yield return new WaitForSeconds(0.05f);
+        }
+
+        nextButton.gameObject.SetActive(true);
+    }
+
+    public void ContinueToNextDialogue()
+    {
+        grandsonGameObject.SetActive(false);
+        grandpaGameObject.SetActive(false);
+        textField.gameObject.SetActive(false);
+        nextButton.gameObject.SetActive(false);
+
+        currentDialogueIndex++;
+
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+        }
+
+        StartDialogue();
+    }
+
     IEnumerator LoadLevelStartPage()
     {
         transition.SetTrigger("Start");
