@@ -69,4 +69,4 @@ If you encounter any issues or have questions about the game, please contact me 
 
 ### Releases
 
-[v0.5.01.](https://github.com/RiddhimanRaguraman/CloudsRescue/releases/tag/v0.5.01)
+[v1.0.04.](https://github.com/RiddhimanRaguraman/CloudsRescue/releases/tag/v1.0.04)
