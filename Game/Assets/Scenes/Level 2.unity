@@ -969,7 +969,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.660318, y: -0.00003, z: -14.9}
+  m_LocalPosition: {x: 4.771429, y: -0.00002, z: -14.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2973,8 +2973,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
-      value: "For the polynomial q(x) = x\r^4+ 3x^3 \u2212 2x^2 \u2212 5x + 6, determine
-        whether x \r= \u22121 is a zero of the polynomial. (Yes/No)\r\n"
+      value: "For the polynomial \nq(x) = x^4 + 3(x^3) \u2212 2(x^2) \u2212 5x +
+        6, determine whether x = \u22121 is a zero of the polynomial. (Yes/No)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontColor.b
@@ -3226,12 +3226,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_text
-      value: "The sum of the ages of two sisters is 30, and the difference in their
-        ages is 6. Find the age of the older sister.\r"
+      value: "\nSolve the equation \nx^3 \u2212 7(x^2) + 10x = 0 for its real roots.
+        Write the roots in descending order."
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_fontSize
       value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_fontSizeBase

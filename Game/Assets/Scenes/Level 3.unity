@@ -707,7 +707,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 964655976}
   returnButton: {fileID: 2080304508}
-  correctAnswer: 5
+  correctAnswer: 18
   button: {fileID: 4509450935973995930}
   joyStick: {fileID: 5762072244836549238}
   EndCanvas: {fileID: 1289332781}
@@ -969,7 +969,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.660318, y: -0.00003, z: -14.9}
+  m_LocalPosition: {x: 4.771429, y: -0.00002, z: -14.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2831,7 +2831,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 206764964}
   returnButton: {fileID: 1994294193}
-  correctAnswer: 84
+  correctAnswer: 2
   button: {fileID: 4509450934642527055}
   joyStick: {fileID: 5762072244836549238}
 --- !u!1 &1604353096
@@ -2973,8 +2973,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
-      value: Determine the decimal representation of 129/((2^3)(5^4)(7^2)) with an
-        error of less than 0.00001.
+      value: "Graph the equations 3x \u2212 2y = 9 and \n6x \u2212 4y = 12. Determine
+        if the lines are parallel, intersecting, or coincident."
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontColor.b
@@ -3214,7 +3214,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_text
-      value: Enter 5
+      value: '
+
+        The sum of the ages of two sisters is 30, and the difference
+        in their ages is 6. Find the age of the older sister.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_fontSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Name
@@ -3697,8 +3712,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
-      value: 'These 3 clocks ring every 7 minutes, 12 minutes and 21 minutes respectively.
-        If they all ring together, after what time will they ring together again? '
+      value: "Solve the system of equations for x: \n2x + 3y = 7 and 3x \u2212 2y
+        = 4."
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontSize
@@ -6808,6 +6823,23 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
+      propertyPath: m_text
+      value: Now, you stand at the threshold of the world of Linear Equations in
+        Two Variables. Brace yourself for a journey into the realm of simultaneous
+        equations. In this level, Cloud, you will encounter equations that interweave,
+        each representing a different facet of a problem. These pairs of equations
+        hold the potential to unlock solutions that are hidden within their intersections.
+        Can you master the art of finding those elusive values?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
+      propertyPath: m_fontSize
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 4752284887922550312, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8331,8 +8363,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
-      value: "Solve the inequality \u221A(x + 34/6) > 5. answer for x is greater
-        than?"
+      value: "Determine whether the point (2, \u22121) is a solution to the system
+        of equations  \n3x \u2212 2y = 5 and x + 3y = \u22121. (Yes/No)"
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
