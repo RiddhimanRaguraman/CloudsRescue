@@ -969,7 +969,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.771429, y: -0.00002, z: -14.9}
+  m_LocalPosition: {x: 8.660318, y: -0.00003, z: -14.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1945,7 +1945,7 @@ MonoBehaviour:
   transition2: {fileID: 6263178110815742579}
   transitionTime: 1
   Panel: {fileID: 1289332781}
-  nextSceneLoad: 12
+  nextSceneLoad: 1
 --- !u!114 &1289332787
 MonoBehaviour:
   m_ObjectHideFlags: 0
