@@ -12892,7 +12892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14f825512fa8382408705609833cf1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bno: 3
+  bno: 1
   transition: {fileID: 1687044654}
   transitionTime: 1
 --- !u!61 &1946603893

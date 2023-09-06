@@ -24,6 +24,6 @@ public class EnterBuilding : MonoBehaviour
 
         yield return new WaitForSeconds(transitionTime);
 
-        SceneManager.LoadScene(BuildingName);
+        SceneManager.LoadSceneAsync(BuildingName);
     }
 }
