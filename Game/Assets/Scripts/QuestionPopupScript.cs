@@ -32,29 +32,60 @@ public class QuestionPopupScript : MonoBehaviour
         button.SetActive(false);
     }
 
+    // public void CheckAnswer()
+    // {
+    //     float userAnswer;
+    //     if (float.TryParse(answerInput.text, out userAnswer))
+    //     {
+    //         if (Mathf.Abs(userAnswer - correctAnswer) < 0.01f)
+    //         {
+    //             playerScore.IncrementScore(); // Increase the score if the answer is correct
+    //             scoreText.text = "Score: " + playerScore.GetScore().ToString();
+    //             wrongAnswerPanel.SetActive(false); // Hide the wrong answer panel
+    //             GameManager.instance.MarkQuestionAnsweredForSelector(gameObject);
+    //             GetComponent<QSelectorScript>().HideSelectButton();
+    //             questionPopup.SetActive(false);
+    //             joyStick.SetActive(true);    
+    //         }
+    //         else
+    //         {
+    //             // submitButton.SetActive(false);
+    //             wrongAnswerPanel.SetActive(true); // Show the wrong answer panel
+    //             //returnButton.SetActive(true);
+    //         }
+    //     }
+    // }
+
     public void CheckAnswer()
     {
-        float userAnswer;
-        if (float.TryParse(answerInput.text, out userAnswer))
+        string userAnswer = answerInput.text;
+
+        if (IsAnswerCorrect(userAnswer))
         {
-            if (Mathf.Abs(userAnswer - correctAnswer) < 0.01f)
-            {
-                playerScore.IncrementScore(); // Increase the score if the answer is correct
-                scoreText.text = "Score: " + playerScore.GetScore().ToString();
-                wrongAnswerPanel.SetActive(false); // Hide the wrong answer panel
-                GameManager.instance.MarkQuestionAnsweredForSelector(gameObject);
-                GetComponent<QSelectorScript>().HideSelectButton();
-                questionPopup.SetActive(false);
-                joyStick.SetActive(true);    
-            }
-            else
-            {
-                // submitButton.SetActive(false);
-                wrongAnswerPanel.SetActive(true); // Show the wrong answer panel
-                //returnButton.SetActive(true);
-            }
+            playerScore.IncrementScore(); // Increase the score if the answer is correct
+            scoreText.text = "Score: " + playerScore.GetScore().ToString();
+            wrongAnswerPanel.SetActive(false); // Hide the wrong answer panel
+            GameManager.instance.MarkQuestionAnsweredForSelector(gameObject);
+            GetComponent<QSelectorScript>().HideSelectButton();
+            questionPopup.SetActive(false);
+            joyStick.SetActive(true);
+        }
+        else
+        {
+            wrongAnswerPanel.SetActive(true); // Show the wrong answer panel
         }
     }
+
+    private bool IsAnswerCorrect(string userAnswer)
+    {
+        // Convert the correct answer to lowercase for case-insensitive comparison
+        string correctAnswerLower = correctAnswer.ToString().ToLower();
+        string userAnswerLower = userAnswer.ToLower();
+
+        // Check if the user answer matches the correct answer
+        return userAnswerLower == correctAnswerLower || userAnswerLower == correctAnswer.ToString();
+    }
+
 
     public void ClosePopUp()
     {
