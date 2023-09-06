@@ -707,7 +707,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 964655976}
   returnButton: {fileID: 2080304508}
-  correctAnswer: 5
+  correctAnswer: 7
   button: {fileID: 4509450935973995930}
   joyStick: {fileID: 5762072244836549238}
   EndCanvas: {fileID: 1289332781}
@@ -858,7 +858,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 873436924}
   returnButton: {fileID: 8750742910751289546}
-  correctAnswer: 19.3
+  correctAnswer: 8.6
   button: {fileID: 4509450935774574961}
   joyStick: {fileID: 5762072244836549238}
 --- !u!60 &498373350
@@ -969,7 +969,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.660318, y: -0.00003, z: -14.9}
+  m_LocalPosition: {x: 4.771429, y: -0.00002, z: -14.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1585,7 +1585,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 1497728784}
   returnButton: {fileID: 687472415}
-  correctAnswer: 0.00049
+  correctAnswer: 6
   button: {fileID: 4509450934473685027}
   joyStick: {fileID: 5762072244836549238}
 --- !u!114 &1212619480
@@ -2831,7 +2831,7 @@ MonoBehaviour:
   playerScore: {fileID: 1528746965}
   submitButton: {fileID: 206764964}
   returnButton: {fileID: 1994294193}
-  correctAnswer: 84
+  correctAnswer: 1
   button: {fileID: 4509450934642527055}
   joyStick: {fileID: 5762072244836549238}
 --- !u!1 &1604353096
@@ -2973,8 +2973,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
-      value: Determine the decimal representation of 129/((2^3)(5^4)(7^2)) with an
-        error of less than 0.00001.
+      value: "If the midpoint of the line segment joining \nR (2,3) and S (x,5) is 
+        (4,4), find the value of x."
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontColor.b
@@ -3214,7 +3214,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_text
-      value: Enter 5
+      value: "\nIf the point I (4, 1) lies on the line \n2x\u2212y = k, find the
+        value of k."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750742910941877148, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 7f05d19fe014864419edc6cc46093d9b, type: 3}
       propertyPath: m_Name
@@ -3697,8 +3702,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
-      value: 'These 3 clocks ring every 7 minutes, 12 minutes and 21 minutes respectively.
-        If they all ring together, after what time will they ring together again? '
+      value: "Calculate the slope of the line passing through the points E (3, 4)
+        and F (\u22122, \u22121)."
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_fontSize
@@ -6808,6 +6813,23 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
+      propertyPath: m_text
+      value: Now, you step into the realm of coordinate geometry, where points, lines,
+        and equations converge to create a world of mathematical connections. Coordinate
+        geometry, Cloud, is the unity of algebra and geometry. It unveils the beauty
+        of shapes and relationships through the lens of coordinates. In this level,
+        you'll navigate through the Cartesian plane, discovering the magic that numbers
+        and points can create.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
+      propertyPath: m_fontSize
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752284887476146026, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 4752284887922550312, guid: 6d1c3c5d0a8adeb49b914a7e20ef1148, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8331,8 +8353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750742910941877148, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_text
-      value: "Solve the inequality \u221A(x + 34/6) > 5. answer for x is greater
-        than?"
+      value: "Find the distance between the points A (3, 5) and B (8, \u22122)."
       objectReference: {fileID: 0}
     - target: {fileID: 8750742911172981083, guid: 8ea8136c078b4e048ae3fb3495a8db9b, type: 3}
       propertyPath: m_Name
