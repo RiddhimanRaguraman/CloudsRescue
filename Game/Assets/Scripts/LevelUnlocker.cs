@@ -10,6 +10,7 @@ public class LevelUnlocker : MonoBehaviour
     void Start()
     {
         int levelit = PlayerPrefs.GetInt("levelit", 4);
+        PlayerPrefs.Save();
         for (int i = 0; i < buttons.Length; i++)
         {
             if (i + 4 > levelit)
