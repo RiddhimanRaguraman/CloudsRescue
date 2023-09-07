@@ -13,24 +13,28 @@ public class LevelManager : MonoBehaviour
     public GameObject Panel;
     public int nextSceneLoad;
 
+    void Start()
+    {
+        nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
+    }
     public void OpenLevel()
     {
-        string levelName = "Level " + (SceneManager.GetActiveScene().buildIndex + 1);
+        StartCoroutine(LoadLevel(nextSceneLoad));
         // SceneManager.LoadScene(levelName);
         if(nextSceneLoad > PlayerPrefs.GetInt("levelit"))
         {
             PlayerPrefs.SetInt("levelit", nextSceneLoad);
         }
-        StartCoroutine(LoadLevel(levelName));
+        StartCoroutine(LoadLevel(nextSceneLoad));
         // UnityEngine.Debug.Log(levelName);
     }
 
-    IEnumerator LoadLevel(string levelName)
+    IEnumerator LoadLevel(int nextSceneLoad)
     {
         transition1.SetTrigger("Start");
         transition2.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         Panel.SetActive(false);
-        SceneManager.LoadScene(levelName);
+        SceneManager.LoadScene(nextSceneLoad);
     }
 }
