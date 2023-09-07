@@ -118,7 +118,12 @@ public class CharacterInteraction : MonoBehaviour
 
         SceneManager.LoadSceneAsync("StartPage");
     }
+    public void skip(){
+        StartCoroutine(LoadLevelStartPage());
+    }
 }
+
+
 
 [System.Serializable]
 public class CharacterData
