@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Road Map.unity
     guid: 9c38ce0e3f2033d4e96590ad230313fd
-  - enabled: 0
-    path: Assets/Scenes/Level Selector 3.unity
-    guid: a29fd5a9e64512243b38704b8b3e427a
   - enabled: 1
     path: Assets/Scenes/Level Selector 1.unity
     guid: c36d718de513a2e42aa4e1ba85acba5d
