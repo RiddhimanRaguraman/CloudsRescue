@@ -18,11 +18,13 @@ public class FQuestionPopupScript : MonoBehaviour
     public GameObject button;
     public GameObject joyStick;
     public GameObject EndCanvas;
+    public int nextSceneLoad;
     // public GameObject StartCanvas;
    
     
     private void Start()
     {
+        nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
         wrongAnswerPanel.SetActive(false); // Hide the second game object pop-up initially
         EndCanvas.SetActive(false);
 
@@ -49,7 +51,11 @@ public class FQuestionPopupScript : MonoBehaviour
                 GetComponent<FSelectorScript>().HideSelectButton();
                 questionPopup.SetActive(false);
                 // StartCanvas.SetActive(false);
-
+                if(nextSceneLoad > PlayerPrefs.GetInt("levelit"))
+                {
+                    PlayerPrefs.SetInt("levelit", nextSceneLoad);
+                    PlayerPrefs.Save();
+                }
                 EndCanvas.SetActive(true);
             }
             else

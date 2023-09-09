@@ -21,11 +21,6 @@ public class LevelManager : MonoBehaviour
     {
         StartCoroutine(LoadLevel(nextSceneLoad));
         // SceneManager.LoadScene(levelName);
-        if(nextSceneLoad > PlayerPrefs.GetInt("levelit"))
-        {
-            PlayerPrefs.SetInt("levelit", nextSceneLoad);
-            PlayerPrefs.Save();
-        }
         StartCoroutine(LoadLevel(nextSceneLoad));
         // UnityEngine.Debug.Log(levelName);
     }
