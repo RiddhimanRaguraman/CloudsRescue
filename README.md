@@ -59,9 +59,6 @@
 - **Joystick**: Use the dynamic joystick on the left side of the screen to control your character's movement.
 - **select buttons**: Use buttons to interact with the assets
   
-## Screenshots
-
-[Insert screenshots or links to screenshots.]
 
 ## Support
 
